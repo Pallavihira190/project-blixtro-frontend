@@ -9,13 +9,13 @@ body {
   background-color: #E6F0FF;
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: center;
   height: 100vh;
   padding: 1rem;
-  margin-bottom: 25%;
+  margin-bottom: 20%;
 }
 
-.sign-in-container {
+.change-password {
   background: #ffffff;
   padding: 2rem;
   width: 100%;
@@ -30,33 +30,33 @@ body {
   text-align: center;
   border: 1px solid #d9d9d9;
 }
-.sign-in-container .logo img {
-  width: 80px;
+.change-password .logo img {
+  width: 70px;
   margin-bottom: 1.5rem;
 }
-.sign-in-container .sign-in-form .form-group {
+.change-password .change-password-form .form-group {
   margin-bottom: 1.5rem;
   text-align: left;
 }
-.sign-in-container .sign-in-form .form-group label {
+.change-password .change-password-form .form-group label {
   display: block;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
-  color: #000;
+  color: #000000;
 }
-.sign-in-container .sign-in-form .form-group input {
+.change-password .change-password-form .form-group input {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
 }
-.sign-in-container .sign-in-form .form-group input:focus {
+.change-password .change-password-form .form-group input:focus {
   outline: none;
   border-color: #0056D2;
   box-shadow: 0 0 5px rgba(0, 86, 210, 0.3);
 }
-.sign-in-container .sign-in-form .btn-signin {
+.change-password .change-password-form .btn {
   background: #0056D2;
   color: #fff;
   border: none;
@@ -66,32 +66,6 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
-.sign-in-container .sign-in-form .btn-signin:hover {
+.change-password .change-password-form .btn:hover {
   background: #00419f;
-}
-.sign-in-container .signin-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 8%;
-}
-.sign-in-container .signin-link .login-link {
-  color: #000000;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20%;
-  /*p{
-   position: relative;
-   left: 35%;
-   bottom: -4rem;
-   transform: translateX(-69px);
-   }*/
-}
-.sign-in-container .signin-link .login-link a {
-  color: #0056D2;
-}
-.sign-in-container .signin-link .login-link:hover {
-  text-decoration: underline;
 }

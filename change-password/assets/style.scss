@@ -1,8 +1,7 @@
-// Variables
 $primary-color: #0056D2; 
 $background-color: #E6F0FF; 
 $form-bg-color: #ffffff; 
-$text-color: #000; 
+$text-color: #000000; 
 $border-radius: 8px; 
 
 
@@ -17,13 +16,13 @@ body {
   background-color: $background-color;
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: center;
   height: 100vh;
   padding: 1rem;
-  margin-bottom: 25%;
+  margin-bottom: 20%;
 }
 
-.sign-in-container {
+.change-password {
   background: $form-bg-color;
   padding: 2rem;
   width: 100%;
@@ -39,11 +38,11 @@ body {
   
 
   .logo img {
-    width: 80px;
+    width: 70px;
     margin-bottom: 1.5rem;
   }
 
-  .sign-in-form {
+  .change-password-form {
     .form-group {
       margin-bottom: 1.5rem;
       text-align: left;
@@ -70,7 +69,7 @@ body {
       }
     }
 
-    .btn-signin {
+    .btn {
       background: $primary-color;
       color: #fff;
       border: none;
@@ -82,36 +81,6 @@ body {
 
       &:hover {
         background: darken($primary-color, 10%);
-      }
-    }
-  }
-  .signin-link{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 8%;
-
-    .login-link {
-      color: #000000;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 20%;
-
-
-     /*p{
-      position: relative;
-      left: 35%;
-      bottom: -4rem;
-      transform: translateX(-69px);
-      }*/
-      a{
-        color: $primary-color;
-      }
-
-      &:hover {
-        text-decoration: underline;
       }
     }
   }
