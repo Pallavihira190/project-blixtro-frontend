@@ -9,13 +9,13 @@ body {
   background-color: #E6F0FF;
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: center;
   height: 100vh;
   padding: 1rem;
   margin-bottom: 20%;
 }
 
-.sigin-container {
+.change-password {
   background: #ffffff;
   padding: 2rem;
   width: 100%;
@@ -30,33 +30,33 @@ body {
   text-align: center;
   border: 1px solid #d9d9d9;
 }
-.sigin-container .logo img {
-  width: 80px;
+.change-password .logo img {
+  width: 70px;
   margin-bottom: 1.5rem;
 }
-.sigin-container .sigin-form .form-group {
+.change-password .change-password-form .form-group {
   margin-bottom: 1.5rem;
   text-align: left;
 }
-.sigin-container .sigin-form .form-group label {
+.change-password .change-password-form .form-group label {
   display: block;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
   color: #000;
 }
-.sigin-container .sigin-form .form-group input {
+.change-password .change-password-form .form-group input {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
 }
-.sigin-container .sigin-form .form-group input:focus {
+.change-password .change-password-form .form-group input:focus {
   outline: none;
   border-color: #0056D2;
   box-shadow: 0 0 5px rgba(0, 86, 210, 0.3);
 }
-.sigin-container .sigin-form .btn-signin {
+.change-password .change-password-form .btn {
   background: #0056D2;
   color: #fff;
   border: none;
@@ -66,24 +66,6 @@ body {
   font-size: 1rem;
   cursor: pointer;
 }
-.sigin-container .sigin-form .btn-signin:hover {
+.change-password .change-password-form .btn:hover {
   background: #00419f;
-}
-.sigin-container .login-link {
-  color: #000000;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-.sigin-container .login-link p {
-  position: relative;
-  left: 35%;
-  bottom: -4rem;
-  transform: translateX(-69px);
-}
-.sigin-container .login-link a {
-  color: #0056D2;
-}
-.sigin-container .login-link:hover {
-  text-decoration: underline;
 }
