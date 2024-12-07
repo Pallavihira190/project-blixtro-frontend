@@ -47,11 +47,11 @@ body {
 }
 .login-container .login-form .form-group input:focus {
   outline: none;
-  border-color: #0056D2;
+  border-color: #013298;
   box-shadow: 0 0 5px rgba(0, 86, 210, 0.3);
 }
 .login-container .login-form .btn-signin {
-  background: #0056D2;
+  background: #013298;
   color: #fff;
   border: none;
   padding: 0.75rem;
@@ -64,7 +64,7 @@ body {
   justify-content: center;
 }
 .login-container .login-form .btn-signin:hover {
-  background: #00419f;
+  background: #012165;
 }
 .login-container .login-form .form-actions {
   display: flex;
@@ -87,7 +87,7 @@ body {
   align-items: center;
   margin-top: -1rem;
   margin-left: 5.5px;
-  color: #0056D2;
+  color: #013298;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -95,7 +95,7 @@ body {
   text-decoration: underline;
 }
 .login-container .new-user .register-link {
-  color: #0056D2;
+  color: #013298;
   text-decoration: none;
   display: flex;
   align-items: center;

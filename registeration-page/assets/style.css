@@ -53,11 +53,11 @@ body {
 }
 .sign-in-container .sign-in-form .form-group input:focus {
   outline: none;
-  border-color: #0056D2;
+  border-color: #013298;
   box-shadow: 0 0 5px rgba(0, 86, 210, 0.3);
 }
 .sign-in-container .sign-in-form .btn-signin {
-  background: #0056D2;
+  background: #013298;
   color: #fff;
   border: none;
   padding: 0.75rem;
@@ -70,7 +70,7 @@ body {
   cursor: pointer;
 }
 .sign-in-container .sign-in-form .btn-signin:hover {
-  background: #00419f;
+  background: #012165;
 }
 .sign-in-container .signin-link {
   display: flex;
@@ -86,7 +86,7 @@ body {
   justify-content: center;
 }
 .sign-in-container .signin-link .login-link a {
-  color: #0056D2;
+  color: #013298;
 }
 .sign-in-container .signin-link .login-link:hover {
   text-decoration: underline;
