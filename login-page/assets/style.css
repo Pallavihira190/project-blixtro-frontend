@@ -14,7 +14,25 @@ body {
   padding: 1rem;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 396px;
+}
+.logo .logo-img {
+  width: 80px;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 440px;
+}
+
 .login-container {
+  margin-top: 20px;
   background: #ffffff;
   padding: 2rem;
   width: 100%;
@@ -23,10 +41,6 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   border: 1px solid #d9d9d9;
-}
-.login-container .logo img {
-  width: 80px;
-  margin-bottom: 1.5rem;
 }
 .login-container .login-form .form-group {
   margin-bottom: 1.5rem;
@@ -87,7 +101,7 @@ body {
   align-items: center;
   margin-top: -1rem;
   margin-left: 5.5px;
-  color: #013298;
+  color: #105AE4;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -101,11 +115,15 @@ body {
   align-items: center;
 }
 .login-container .new-user .register-link p {
+  color: #000;
   position: relative;
   left: 50%;
   bottom: -5rem;
   transform: translateX(-69px);
 }
-.login-container .new-user .register-link:hover {
+.login-container .new-user .register-link a {
+  color: #105AE4;
+}
+.login-container .new-user .register-link a:hover {
   text-decoration: underline;
 }

@@ -23,6 +23,21 @@ body {
   margin-bottom: 20%;
 }
 
+.logo{
+  display: flex;
+  justify-content: center;
+
+  .logo img {
+    width: 80px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.container{
+  width: 100%;
+  max-width:400px;
+}
+
 .sign-in-container {
   background: $form-bg-color;
   padding: 2rem;
@@ -30,7 +45,7 @@ body {
   max-width: 445px;
   border-radius: $border-radius;
   position: relative;
-  top:15px;
+  top:20px;
   height: fit-content;
   max-height: 759px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -38,10 +53,7 @@ body {
   border: 1px solid #d9d9d9;
   
 
-  .logo img {
-    width: 80px;
-    margin-bottom: 1.5rem;
-  }
+  
 
   .sign-in-form {
     .form-group {
@@ -105,10 +117,12 @@ body {
 
       a{
         color: $primary-color;
-      }
+        text-decoration: none;
+      
 
-      &:hover {
+         &:hover {
         text-decoration: underline;
+        }
       }
     }
   }
