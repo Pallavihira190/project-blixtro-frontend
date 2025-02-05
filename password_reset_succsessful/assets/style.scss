@@ -1,0 +1,31 @@
+$primary-color: #013298; 
+$background-color: #E5EEFF; 
+$form-bg-color: #ffffff; 
+$text-color: #000; 
+$border-radius: 8px; 
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+  
+  .container{
+    background-color: $form-bg-color;
+    padding: 3rem;
+    width: 100%;
+    max-width: 490px;
+    border-radius: $border-radius;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    border:1px solid #d9d9d9;
+   }
+
+   .card{
+    border:none;
+    
+   }
+}  
