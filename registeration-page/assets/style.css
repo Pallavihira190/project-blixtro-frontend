@@ -15,6 +15,20 @@ body {
   margin-bottom: 20%;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo .logo img {
+  width: 80px;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
 .sign-in-container {
   background: #ffffff;
   padding: 2rem;
@@ -22,17 +36,13 @@ body {
   max-width: 445px;
   border-radius: 8px;
   position: relative;
-  top: 15px;
+  top: 20px;
   height: -moz-fit-content;
   height: fit-content;
   max-height: 759px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   border: 1px solid #d9d9d9;
-}
-.sign-in-container .logo img {
-  width: 80px;
-  margin-bottom: 1.5rem;
 }
 .sign-in-container .sign-in-form .form-group {
   margin-bottom: 1.5rem;
@@ -53,11 +63,11 @@ body {
 }
 .sign-in-container .sign-in-form .form-group input:focus {
   outline: none;
-  border-color: #0056D2;
+  border-color: #013298;
   box-shadow: 0 0 5px rgba(0, 86, 210, 0.3);
 }
 .sign-in-container .sign-in-form .btn-signin {
-  background: #0056D2;
+  background: #013298;
   color: #fff;
   border: none;
   padding: 0.75rem;
@@ -70,7 +80,7 @@ body {
   cursor: pointer;
 }
 .sign-in-container .sign-in-form .btn-signin:hover {
-  background: #00419f;
+  background: #012165;
 }
 .sign-in-container .signin-link {
   display: flex;
@@ -86,8 +96,9 @@ body {
   justify-content: center;
 }
 .sign-in-container .signin-link .login-link a {
-  color: #0056D2;
+  color: #013298;
+  text-decoration: none;
 }
-.sign-in-container .signin-link .login-link:hover {
+.sign-in-container .signin-link .login-link a:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

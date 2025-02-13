@@ -1,4 +1,4 @@
-$primary-color: #0056D2; 
+$primary-color: #013298; 
 $background-color: #E6F0FF; 
 $form-bg-color: #ffffff; 
 $text-color: #000000; 
@@ -21,6 +21,15 @@ body {
   padding: 1rem;
   margin-bottom: 20%;
 }
+.logo{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  max-width: 440px;
+}
 
 .change-password {
   background: $form-bg-color;
@@ -29,7 +38,7 @@ body {
   max-width: 445px;
   border-radius: $border-radius;
   position: relative;
-  top:15px;
+  top:20px;
   height: fit-content;
   max-height: 759px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
