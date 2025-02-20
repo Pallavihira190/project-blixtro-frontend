@@ -17,10 +17,15 @@
       border-bottom: 1px solid #e5e5e5;
       display: flex;
       align-items: center !important;
-  
+
       .logo {
         img {
           width: 115px;
+        }
+        @media screen and (min-width: 431px)  {
+          #show{
+            display: none;
+          }
         }
       }
   
@@ -55,6 +60,7 @@
         top: auto;
         left: auto;
         margin-top: 60px;
+        margin-left: -100%;
       }
   
       .nav {

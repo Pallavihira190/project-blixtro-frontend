@@ -18,6 +18,11 @@
 .initial-wrap .header .logo img {
   width: 115px;
 }
+@media screen and (min-width: 431px) {
+  .initial-wrap .header .logo #show {
+    display: none;
+  }
+}
 .initial-wrap .header .header-content {
   display: flex;
   justify-content: space-between;
@@ -46,6 +51,7 @@
     top: auto;
     left: auto;
     margin-top: 60px;
+    margin-left: -100%;
   }
 }
 .initial-wrap .sidebar .nav {
